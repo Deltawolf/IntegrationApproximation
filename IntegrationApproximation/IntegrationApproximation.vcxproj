@@ -159,12 +159,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\MyHeaders\Zach.h">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
-      <DeploymentContent>false</DeploymentContent>
-    </ClInclude>
     <ClInclude Include="pch.h" />
+    <ClInclude Include="Zach.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="IntegrationApproximation.cpp" />
